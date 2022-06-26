@@ -1,0 +1,5 @@
+dist
+scripts/babel/*
+scripts/webpack/*
+.eslintrc.js
+settings.ts
