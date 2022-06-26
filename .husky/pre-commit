@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "\033[0;32m PRE-COMMIT LINTING"
-
 yarn lint-staged
