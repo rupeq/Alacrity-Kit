@@ -1,10 +1,10 @@
 import React from 'react';
-import { Test } from 'components';
+import { Palette } from 'components';
 
 function Development() {
   return (
     <div>
-      <Test />
+      <Palette />
     </div>
   );
 }
