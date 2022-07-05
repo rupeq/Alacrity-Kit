@@ -1,0 +1,52 @@
+@import 'components/colors.scss';
+
+.paletteBlock {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+  height: 350px;
+  width: 800px;
+}
+
+.paletteBlockItem {
+  &:nth-child(1) {
+    background-color: $cherry-red;
+  }
+
+  &:nth-child(2) {
+    background-color: $off-white;
+  }
+
+  &:nth-child(3) {
+    background-color: $royal-blue;
+  }
+
+  &:nth-child(4) {
+    background-color: $peach;
+  }
+
+  &:nth-child(5) {
+    background-color: $blue;
+  }
+
+  &:nth-child(6) {
+    background-color: $pink;
+  }
+
+  &:nth-child(7) {
+    background-color: $lime-green;
+  }
+
+  &:nth-child(8) {
+    background-color: $electric-blue;
+  }
+
+  &:nth-child(9) {
+    background-color: $lavender;
+  }
+
+  &:nth-child(10) {
+    background-color: $teal;
+  }
+}
